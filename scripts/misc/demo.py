@@ -11,7 +11,7 @@ tokenizer, model, image_processor, context_len = load_pretrained_model(
 )
 
 model_path = "liuhaotian/llava-v1.5-7b"
-prompt = "Describe the underwater image with its semantic content, including its main objects, the background, its turbidity, and the color cast. Follow the following answering format: 'This image shows <your description>. The water visibility appears to be <bad/poor/fair/good/excellent>. There is no color cast./The color cast of the environment is <blue/green/yellow/black/red>'"
+prompt = "Describe the underwater image with its semantic content, including its main objects, the background, its turbidity, and the color cast. Follow the answering format like: 'This image shows <your description>. The water visibility appears to be <bad/poor/fair/good/excellent>. The color cast of the environment is <blue/green/yellow/black/red/no color cast>'"
 
 
 image_file = "/mnt/03_Data/01_enhancement/01_underwater/UIE_Benchmark/Enhanced/all/tuda_wb/1.png"
